@@ -67,16 +67,28 @@ body{
     font-style: italic;
     margin:20px;
 }
-.strikebutton{
+#strikebutton{
     width:200px;
     height:50px;
     background-color:rgba(99, 90, 15, 0.5);
-    font-size: 15px;
+    font-size: 20px;
     border-radius:25px;
     align-self: center;
     margin-top:30px;
+    font-weight: bolder;
 }
 
 button:hover{
     background-color:rgb(99, 90, 15);
+}
+#result{
+    font-size:25px;
+    color:rgb(31, 21, 7);
+    font-weight: bolder;
+    text-align:center;
+    background: linear-gradient(to right,rgba(221, 131, 13,0.5),rgba(139, 69, 11, 0.6));
+    border-radius: 20px;
+    border:2px saddlebrown;
+    margin-top: 10px;
+
 }
